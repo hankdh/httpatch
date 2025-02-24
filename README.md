@@ -2,7 +2,7 @@
 
 ## What is this?
 
-`httpatch` is a simple tool to intercept HTTP traffic using `mitmproxy`, apply custom modifications to the responses, and handle them in real-time. It allows you to define rules that specify which requests to modify and how to change their JSON responses.
+`httpatch` is a simple tool to intercept HTTP traffic using `mitmproxy`, apply custom modifications to the responses, and handle them in real-time. It allows you to define rules that specify which requests to modify and how to change their JSON responses. Please note that I'm not sure if this works on Windows too, since I run Arch Linux and do not own a Windows.
 
 ## Features
 
@@ -35,3 +35,8 @@ pip install -r requirements.txt
 4. Click **Add New Rule** to add rules for modifying responses.
 
 5. Double-click a rule in the list to edit it.
+
+## To do list
+- [] Add XML support
+- [] Be able to change requests aswell
+- [] Automatically change proxy settings when starting/running
