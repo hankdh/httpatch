@@ -37,6 +37,6 @@ pip install -r requirements.txt
 5. Double-click a rule in the list to edit it.
 
 ## To do list
-- [] Add XML support
-- [] Be able to change requests aswell
-- [] Automatically change proxy settings when starting/running
+- [ ] Add XML support
+- [ ] Be able to change requests aswell
+- [ ] Automatically change proxy settings when starting/running
