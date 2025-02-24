@@ -4,13 +4,6 @@
 
 `httpatch` is a simple tool to intercept HTTP traffic using `mitmproxy`, apply custom modifications to the responses, and handle them in real-time. It allows you to define rules that specify which requests to modify and how to change their JSON responses. Please note that I'm not sure if this works on Windows too, since I run Arch Linux and do not own a Windows.
 
-## Features
-
-- **Intercept HTTP traffic**: Runs `mitmproxy` on a specified port and intercepts the HTTP traffic.
-- **Modify JSON responses**: Apply custom modifications to the JSON data in the response, based on user-defined rules.
-- **Add, edit, and remove rules**: You can easily add, edit, or remove rules using the GUI.
-- **Control mitmproxy**: Start or stop the proxy server with a simple button click.
-
 ## Installation
 ```bash
 git clone https://github.com/hankdh/httpatch.git
