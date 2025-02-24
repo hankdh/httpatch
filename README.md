@@ -38,5 +38,5 @@ pip install -r requirements.txt
 
 ## To do list
 - [ ] Add XML support
-- [ ] Be able to change request body ("payload") aswell
+- [ ] Be able to change request body (payload) aswell
 - [ ] Automatically change proxy settings when starting/running
